@@ -1,5 +1,33 @@
-title: Abbas Siddiqui
-logo: /assets/img/headshot_circle.png
-#description: text below image
-show_downloads: true
-theme: jekyll-theme-minimal
+title: "Portfolio of Projects"
+description: "A showcase of projects blending technical expertise, creativity, and passion for innovation."
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Just the Docs settings
+just_the_docs:
+  # Logo and favicon customization
+  logo: /assets/images/logo.png # Add your logo image here
+  favicon: /assets/images/favicon.ico # Add a favicon for branding
+
+  # Navigation configuration
+  primary_navigation:
+    - title: "Home"
+      url: /
+    - title: "Projects"
+      url: /projects/
+    - title: "About"
+      url: /about/
+    - title: "Contact"
+      url: /contact/
+
+# Social links (customize with your profiles)
+author:
+  name: Abbas Siddiqui
+  email: siddiquiabbas22@gmail.com
+  social:
+    linkedin: https://www.linkedin.com/in/abbas-siddiqui-5434b71aa/
+    github: https://github.com/ANRC2020
