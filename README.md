@@ -38,7 +38,7 @@ Developed and tested policy optimization techniques using quasi-Newton methods u
 Led the development of a proof of concept application for real-time tracking and analysis of stroke patients' performance in a variety of hand-eye coordination tasks to make medical assessments accessible to those unable to travel safely and to provide medical professionals with accurate analyses to help in their decision making process. Managed the extraction, analysis, and storage of patient's spatial data and visualizations and reports of their progress over time.  Developed a frontend system for doctors to order and view the results of their patients' tests. The project was recognized as the Top Finisher at the Innovate to Grow Event.
 
 **Project Poster:**  
-![Valley Children's Hospital Internship](assets/images/2022-08-Fall-CSE-Team315-poster.png)
+![Valley Children's Hospital Internship](assets/img/2022-08-Fall-CSE-Team315-poster.png)
 
 <br />
 <br />
