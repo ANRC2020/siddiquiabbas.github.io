@@ -47,7 +47,12 @@ Led the development of a proof of concept application for real-time tracking and
 Conducted protein structure data analysis, focusing on using protein's structures and chemical properties to accelerate the testing process for finding compounds capable of binding to the SARS-COVID 19 virus for vaccine synthesis. Developed a 3-dimensional convolutional neural network from scratch that achieved 75% test accuracy in identifying proteins more likely to bind to the virus's receptor sites.
 
 **Project Presentation:**  
-![LLNL Data Science Project](assets/images/DSC_poster_template.jpg)
+
+<iframe 
+    src="assets/img/gifs/LLNL DSC Team 1 .pptx.pdf" 
+    width="800" 
+    height="600">
+</iframe>
 
 ## Relevant Projects
 
