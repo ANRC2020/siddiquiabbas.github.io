@@ -61,7 +61,7 @@ A package delivery simulation system was created, integrating SQL, MongoDB, and 
 
 *Project Demonstration:*
 <div style="text-align: center;">
-  <img src="assets/gifs/Delivery.gif" alt="Delivery Simulation" width="800px"/>
+  <img src="assets/img/gifs/Delivery.gif" alt="Delivery Simulation" width="800px"/>
 </div>
 
 <br />
