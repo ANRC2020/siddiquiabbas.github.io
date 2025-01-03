@@ -46,8 +46,7 @@ Led the development of a proof of concept application for real-time tracking and
 ### Data Science Intern | Lawrence Livermore National Laboratory | May 2022 - June 2022
 Conducted protein structure data analysis, focusing on using protein's structures and chemical properties to accelerate the testing process for finding compounds capable of binding to the SARS-COVID 19 virus for vaccine synthesis. Developed a 3-dimensional convolutional neural network from scratch that achieved 75% test accuracy in identifying proteins more likely to bind to the virus's receptor sites.
 
-**Project Presentation:**  
-
+*Project Presentation:* 
 <iframe 
     src="assets/img/gifs/LLNL DSC Team 1 .pptx.pdf" 
     width="800" 
@@ -69,6 +68,7 @@ A package delivery simulation system was created, integrating SQL, MongoDB, and 
 ### Predicting Sentiments in 500k Amazon Product Reviews
 Conducted a thorough analysis of textual Amazon product reviews, focusing on feature engineering to extract meaningful insights and enhance model performance. Multiple predictive models, including logistic regression, decision trees, k nearest neighbors, and variants of neural networks, such as LSTMs, were developed and rigorously compared for sentiment classification accuracy. By evaluating key metrics such as accuracy, precision, recall, and f1 score, the best-performing model was selected to classify customers' sentiments via their reviews.
 
+*Project Presentation:* 
 <iframe 
     src="assets/img/gifs/DataSci 207.pdf" 
     width="800" 
