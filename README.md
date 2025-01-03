@@ -70,7 +70,7 @@ A package delivery simulation system was created, integrating SQL, MongoDB, and 
 Conducted a thorough analysis of textual Amazon product reviews, focusing on feature engineering to extract meaningful insights and enhance model performance. Multiple predictive models, including logistic regression, decision trees, k nearest neighbors, and variants of neural networks, such as LSTMs, were developed and rigorously compared for sentiment classification accuracy. By evaluating key metrics such as accuracy, precision, recall, and f1 score, the best-performing model was selected to classify customers' sentiments via their reviews.
 
 <iframe 
-    src="assets/img/gifs/DATA207_FinalProject_Slides.pptx" 
+    src="assets/img/gifs/DataSci 207.pdf" 
     width="800" 
     height="500">
 </iframe>
