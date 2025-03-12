@@ -77,6 +77,17 @@ Conducted a thorough analysis of textual Amazon product reviews, focusing on fea
 
 <br />
 
+## Flight Delay Prediction and Analysis
+
+Developed several machine learning-based systems for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive data preprocessing, including handling missing values, encoding categorical variables, and feature engineering (i.e. creating lagged features) to enhance model performance. Significant efforts were made to account for any potential data leakage in dataset augmentation and cross validation of results. We leveraged machine learning models including Logistic Regression, Naive Bayes, Decision Tress, Random Forests, and Neural Nets to predict flight delays.
+
+Model performance was evaluated using metrics such as precision, recall, and a weighted F1 score to assess the effectiveness of each algorithm. Azure and PySpark ML was leveraged to parallelize data processing and model training. This approach utilized only CPU parallelization, ensuring scalable and high-performance execution even with the large 30GB dataset. The system demonstrated the ability to scale efficiently with large data and deliver real-time predictive capabilities for flight delay analysis.
+
+The project showcases expertise in predictive modeling, feature engineering, and distributed computing with a focus on time-sensitive predictions, making it well-suited for real-world flight delay forecasting and optimization.
+
+GitHub Repository:
+[https://github.com/ANRC2020/Airline_Delay_Predictions_at_Scale]
+
 ### End to End Machine Learning System Using Kubernates and Azure
 
 Leveraged Docker, Kubernates, and Azure to implement a robust end to end machine learning service API and to host and scale it in the cloud. Implemented a BERT model for text classification for textual setiment analysis.
