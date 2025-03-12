@@ -92,9 +92,6 @@ GitHub Repository:
 
 Leveraged Docker, Kubernates, and Azure to implement a robust end to end machine learning service API and to host and scale it in the cloud. Implemented a BERT model for text classification for textual setiment analysis.
 
-### Naive Bayes Text Classification Using Hadoop 
-Leveraged Hadoop to train a Naive Bayes text classifier at scale. Implemented the theroy from scratch and optimized the parellization of tasks to train and classify ~100,000 text samples on a 4-core virtual machine.
-
 <br />
 
 ### Time Series Forecasting and Statistical Analysis of CO2 Emissions Trends
