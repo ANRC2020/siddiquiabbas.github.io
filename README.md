@@ -1,7 +1,7 @@
 # Abbas Siddiqui
 
 ## Contact Information
-- **Email:** siddiquiabbas2@gmail.com
+- **Email:** siddiquiabbas22@gmail.com
 - **GitHub:** [Github](https://github.com/ANRC2020)
 - **LinkedIn:** [Linkedin](https://www.linkedin.com/in/abbas-siddiqui-5434b71aa/)
 
