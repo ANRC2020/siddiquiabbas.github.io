@@ -57,6 +57,30 @@ Conducted protein structure data analysis, focusing on using protein's structure
 
 ## Relevant Projects
 
+<br />
+
+## Flight Delay Prediction and Analysis
+
+Developed several machine learning-based systems for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive data preprocessing, including handling missing values, encoding categorical variables, and feature engineering (i.e., creating lagged features) to enhance model performance. Significant efforts were made to account for any potential data leakage in dataset augmentation and cross-validation of results. We leveraged machine learning models, including Logistic Regression, Naive Bayes, Decision Trees, Random Forests, and Neural Nets to predict flight delays.
+
+Model performance was evaluated using metrics such as precision, recall, and a weighted F1 score to assess the effectiveness of each algorithm. Azure and PySpark ML were leveraged to parallelize data processing and model training. This approach utilized only CPU parallelization, ensuring scalable and high-performance execution even with the large 30GB dataset. The system demonstrated the ability to scale efficiently with large data and deliver real-time predictive capabilities for flight delay analysis.
+
+The project showcases expertise in predictive modeling, feature engineering, and distributed computing with a focus on time-sensitive predictions, making it well-suited for real-world flight delay forecasting and optimization.
+
+GitHub Repository:
+[https://github.com/ANRC2020/Airline_Delay_Predictions_at_Scale]
+
+<br />
+
+### End-to-End Machine Learning System Using Kubernetes and Azure
+Built and deployed a scalable, cloud-native machine learning system that performs real-time sentiment analysis using a fine-tuned BERT model. The system was designed with production-readiness in mind, featuring robust infrastructure and automated workflows.
+The entire pipeline was containerized with Docker and orchestrated using Kubernetes on Microsoft Azure, ensuring horizontal scalability, high availability, and fault tolerance. The backend was implemented as a FastAPI microservice, delivering low-latency predictions through a RESTful interface.
+To support rapid iteration and deployment, CI/CD pipelines were integrated using GitHub Actions and Azure DevOps, enabling seamless testing, versioning, and rollout of updates. The system monitored performance metrics and logs for real-time insights, aligning with industry-grade MLOps best practices.
+This project highlights expertise in machine learning engineering, cloud infrastructure, and end-to-end system design—from model development and containerization to deployment and lifecycle management.
+
+GitHub Repository:
+[https://github.com/ANRC2020/Machine-Learning-Systems-Engineering.git]
+
 ### Delivery Simulation
 A package delivery simulation system was created, integrating SQL, MongoDB, and Redis to provide dynamic, real-time feedback throughout the delivery process. Neo4J was employed for advanced route optimization and live tracking of delivery trucks. This solution enhanced logistics efficiency by providing real-time updates and optimized routing, leading to quicker deliveries and more effective resource allocation.
 
@@ -76,27 +100,6 @@ Conducted a thorough analysis of textual Amazon product reviews, focusing on fea
     width="800" 
     height="500">
 </iframe>
-
-<br />
-
-## Flight Delay Prediction and Analysis
-
-Developed several machine learning-based systems for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive data preprocessing, including handling missing values, encoding categorical variables, and feature engineering (i.e., creating lagged features) to enhance model performance. Significant efforts were made to account for any potential data leakage in dataset augmentation and cross-validation of results. We leveraged machine learning models, including Logistic Regression, Naive Bayes, Decision Trees, Random Forests, and Neural Nets to predict flight delays.
-
-Model performance was evaluated using metrics such as precision, recall, and a weighted F1 score to assess the effectiveness of each algorithm. Azure and PySpark ML were leveraged to parallelize data processing and model training. This approach utilized only CPU parallelization, ensuring scalable and high-performance execution even with the large 30GB dataset. The system demonstrated the ability to scale efficiently with large data and deliver real-time predictive capabilities for flight delay analysis.
-
-The project showcases expertise in predictive modeling, feature engineering, and distributed computing with a focus on time-sensitive predictions, making it well-suited for real-world flight delay forecasting and optimization.
-
-GitHub Repository:
-[https://github.com/ANRC2020/Airline_Delay_Predictions_at_Scale]
-
-### End-to-End Machine Learning System Using Kubernetes and Azure
-Built and deployed a scalable, cloud-native machine learning system that performs real-time sentiment analysis using a fine-tuned BERT model. The system was designed with production-readiness in mind, featuring robust infrastructure and automated workflows.
-The entire pipeline was containerized with Docker and orchestrated using Kubernetes on Microsoft Azure, ensuring horizontal scalability, high availability, and fault tolerance. The backend was implemented as a FastAPI microservice, delivering low-latency predictions through a RESTful interface.
-To support rapid iteration and deployment, CI/CD pipelines were integrated using GitHub Actions and Azure DevOps, enabling seamless testing, versioning, and rollout of updates. The system monitored performance metrics and logs for real-time insights, aligning with industry-grade MLOps best practices.
-This project highlights expertise in machine learning engineering, cloud infrastructure, and end-to-end system design—from model development and containerization to deployment and lifecycle management.
-
-<br />
 
 ### Time Series Forecasting and Statistical Analysis of CO2 Emissions Trends
 Time series forecasting models, including ARIMA and SARIMA, were developed to analyze trends and seasonal patterns in CO2 emissions data. Extensive statistical analysis, including residual diagnostics and model validation, was conducted to ensure robust predictions. Anomalies in the data were identified and corrected, enhancing the accuracy and reliability of the forecasting models. 
