@@ -57,9 +57,7 @@ Conducted protein structure data analysis, focusing on using protein's structure
 
 ## Relevant Projects
 
-<br />
-
-## Flight Delay Prediction and Analysis
+### Flight Delay Prediction and Analysis
 
 Developed several machine learning-based systems for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive data preprocessing, including handling missing values, encoding categorical variables, and feature engineering (i.e., creating lagged features) to enhance model performance. Significant efforts were made to account for any potential data leakage in dataset augmentation and cross-validation of results. We leveraged machine learning models, including Logistic Regression, Naive Bayes, Decision Trees, Random Forests, and Neural Nets to predict flight delays.
 
@@ -69,8 +67,6 @@ The project showcases expertise in predictive modeling, feature engineering, and
 
 GitHub Repository:
 [https://github.com/ANRC2020/Airline_Delay_Predictions_at_Scale]
-
-<br />
 
 ### End-to-End Machine Learning System Using Kubernetes and Azure
 Built and deployed a scalable, cloud-native machine learning system that performs real-time sentiment analysis using a fine-tuned BERT model. The system was designed with production-readiness in mind, featuring robust infrastructure and automated workflows.
