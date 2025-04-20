@@ -89,13 +89,15 @@ GitHub Repository:
 [https://github.com/ANRC2020/Airline_Delay_Predictions_at_Scale]
 
 ### End-to-End Machine Learning System Using Kubernetes and Azure
-
-Leveraged Docker, Kubernetes, and Azure to implement a robust end-to-end machine learning service API and to host and scale it in the cloud. Implemented a BERT model for text classification for textual sentiment analysis.
+Built and deployed a scalable, cloud-native machine learning system that performs real-time sentiment analysis using a fine-tuned BERT model. The system was designed with production-readiness in mind, featuring robust infrastructure and automated workflows.
+The entire pipeline was containerized with Docker and orchestrated using Kubernetes on Microsoft Azure, ensuring horizontal scalability, high availability, and fault tolerance. The backend was implemented as a FastAPI microservice, delivering low-latency predictions through a RESTful interface.
+To support rapid iteration and deployment, CI/CD pipelines were integrated using GitHub Actions and Azure DevOps, enabling seamless testing, versioning, and rollout of updates. The system monitored performance metrics and logs for real-time insights, aligning with industry-grade MLOps best practices.
+This project highlights expertise in machine learning engineering, cloud infrastructure, and end-to-end system design—from model development and containerization to deployment and lifecycle management.
 
 <br />
 
 ### Time Series Forecasting and Statistical Analysis of CO2 Emissions Trends
-Time series forecasting models, including ARIMA and SARIMA, were developed to analyze trends and seasonal patterns in CO2 emissions data. Extensive statistical analysis, including residual diagnostics and model validation, was conducted to ensure robust predictions. Anomalies in the data were identified and corrected, enhancing the accuracy and reliability of the forecasting models.
+Time series forecasting models, including ARIMA and SARIMA, were developed to analyze trends and seasonal patterns in CO2 emissions data. Extensive statistical analysis, including residual diagnostics and model validation, was conducted to ensure robust predictions. Anomalies in the data were identified and corrected, enhancing the accuracy and reliability of the forecasting models. 
 
 The data spans from 1958 to 1997, using ARIMA to predict both near-term (2022) and long-term (2100) CO2 levels. The upper, expected, and lower bounds indicate when CO2 concentrations are likely to cross critical thresholds of 420 ppm and 500 ppm. These projections help in understanding potential future CO2 trends under various scenarios, providing valuable insights into long-term environmental planning and policy-making.
 
