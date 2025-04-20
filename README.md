@@ -14,7 +14,7 @@ I am currently pursuing my Masters in Information and Data Science (MIDS) at UC 
   *Master of Information and Data Science*
 
 **Selected Coursework:**  
-Applied Machine Learning | Computer Vision | Modern Applied Statistics | Fundamentals of Data Engineering | Statistical Methods of Time Series Data | Machine Learning at Scale
+Applied Machine Learning | Statistics | Fundamentals of Data Engineering | Statistical Methods of Time Series Data | Machine Learning at Scale | Machine Learning Systems Engineering | Generative AI
 
 - **University of California, Merced** (August 2019 - May 2023)  
   *Bachelor of Science, Majors in Computer Science & Applied Mathematics*  
@@ -27,15 +27,15 @@ Applied Machine Learning | Computer Vision | Modern Applied Statistics | Fundame
 
 ## Programming Skills
 - **Languages:** Python, SQL, R, C++, JavaScript, HTML, CSS, MATLAB, Java, C
-- **Technologies:**  GCP, AWS, Spark, Hadoop, Databricks, Docker, Neo4j, MongoDB, Redis, TensorFlow, Keras, Pytorch, Scikit Learn, NLTK, Transformers, Git, React, Agil
-
+- **Technologies:**  PyTorch; TensorFlow; Scikit-Learn; Keras; Docker; Kubernetes; FastAPI; Redis; TMUX; AWS; GCP; Azure; Databricks; PySpark; Hadoop; LangChain; Jupyter; Pandas; Numpy; Matplotlib; SQL; Git; Linux
+  
 ## Experience
 
 ### Research Assistant | University of California Merced | August 2022 - May 2023
 Developed and tested policy optimization techniques using quasi-Newton methods under a reinforcement learning regime (DQN). Experimented with optimization techniques to approximate Hessian matrix to reduce training time and calculation overhead costs. Managed to reduce the training time by 20-30% against Mujuco benchmark environments using Pytorch.
 
 ### Software Engineer Intern | Valley Children's Hospital | August 2022 - December 2022
-Led the development of a proof of concept application for real-time tracking and analysis of stroke patients' performance in a variety of hand-eye coordination tasks to make medical assessments accessible to those unable to travel safely and to provide medical professionals with accurate analyses to help in their decision making process. Managed the extraction, analysis, and storage of patient's spatial data and visualizations and reports of their progress over time.  Developed a frontend system for doctors to order and view the results of their patients' tests. The project was recognized as the Top Finisher at the Innovate to Grow Event.
+Led the development of a proof-of-concept application for real-time tracking and analysis of stroke patients' performance in a variety of hand-eye coordination tasks to make medical assessments accessible to those unable to travel safely and to provide medical professionals with accurate analyses to help in their decision-making process. Managed the extraction, analysis, and storage of patients' spatial data and visualizations and reports of their progress over time.  Developed a frontend system for doctors to order and view the results of their patients' tests and recovery over time. Significantly reduced the time needed for patients to get diagnosed (15 minutes + travel times reduced to ~1-2 minutes at home). The project was recognized as the Top Finisher at the Innovate to Grow Event.
 
 **Project Poster:**  
 ![Valley Children's Hospital Internship](assets/img/2022-08-Fall-CSE-Team305-poster.png)
@@ -44,7 +44,7 @@ Led the development of a proof of concept application for real-time tracking and
 <br />
 
 ### Data Science Intern | Lawrence Livermore National Laboratory | May 2022 - June 2022
-Conducted protein structure data analysis, focusing on using protein's structures and chemical properties to accelerate the testing process for finding compounds capable of binding to the SARS-COVID 19 virus for vaccine synthesis. Developed a 3-dimensional convolutional neural network from scratch that achieved 75% test accuracy in identifying proteins more likely to bind to the virus's receptor sites.
+Conducted protein structure data analysis, focusing on using protein's structures and chemical properties to accelerate the testing process for finding compounds capable of binding to the SARS-COVID 19 virus for vaccine synthesis. Developed a 3-dimensional convolutional neural network from scratch that achieved 75% test accuracy in identifying proteins more likely to bind to the virus's receptor sites. 
 
 *Project Presentation:* 
 <iframe 
@@ -66,7 +66,7 @@ A package delivery simulation system was created, integrating SQL, MongoDB, and 
 <br />
 
 ### Predicting Sentiments in 500k Amazon Product Reviews
-Conducted a thorough analysis of textual Amazon product reviews, focusing on feature engineering to extract meaningful insights and enhance model performance. Multiple predictive models, including logistic regression, decision trees, k nearest neighbors, and variants of neural networks, such as LSTMs, were developed and rigorously compared for sentiment classification accuracy. By evaluating key metrics such as accuracy, precision, recall, and f1 score, the best-performing model was selected to classify customers' sentiments via their reviews.
+Conducted a thorough analysis of textual Amazon product reviews, focusing on feature engineering to extract meaningful insights and enhance model performance. Multiple predictive models, including logistic regression, decision trees, k-nearest neighbors, and variants of neural networks, such as LSTMs, were developed and rigorously compared for sentiment classification accuracy. By evaluating key metrics such as accuracy, precision, recall, and F1 score, the best-performing model was selected to classify customers' sentiments via their reviews.
 
 *Project Presentation:* 
 <iframe 
@@ -79,18 +79,18 @@ Conducted a thorough analysis of textual Amazon product reviews, focusing on fea
 
 ## Flight Delay Prediction and Analysis
 
-Developed several machine learning-based systems for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive data preprocessing, including handling missing values, encoding categorical variables, and feature engineering (i.e. creating lagged features) to enhance model performance. Significant efforts were made to account for any potential data leakage in dataset augmentation and cross validation of results. We leveraged machine learning models including Logistic Regression, Naive Bayes, Decision Tress, Random Forests, and Neural Nets to predict flight delays.
+Developed several machine learning-based systems for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive data preprocessing, including handling missing values, encoding categorical variables, and feature engineering (i.e., creating lagged features) to enhance model performance. Significant efforts were made to account for any potential data leakage in dataset augmentation and cross-validation of results. We leveraged machine learning models, including Logistic Regression, Naive Bayes, Decision Trees, Random Forests, and Neural Nets to predict flight delays.
 
-Model performance was evaluated using metrics such as precision, recall, and a weighted F1 score to assess the effectiveness of each algorithm. Azure and PySpark ML was leveraged to parallelize data processing and model training. This approach utilized only CPU parallelization, ensuring scalable and high-performance execution even with the large 30GB dataset. The system demonstrated the ability to scale efficiently with large data and deliver real-time predictive capabilities for flight delay analysis.
+Model performance was evaluated using metrics such as precision, recall, and a weighted F1 score to assess the effectiveness of each algorithm. Azure and PySpark ML were leveraged to parallelize data processing and model training. This approach utilized only CPU parallelization, ensuring scalable and high-performance execution even with the large 30GB dataset. The system demonstrated the ability to scale efficiently with large data and deliver real-time predictive capabilities for flight delay analysis.
 
 The project showcases expertise in predictive modeling, feature engineering, and distributed computing with a focus on time-sensitive predictions, making it well-suited for real-world flight delay forecasting and optimization.
 
 GitHub Repository:
 [https://github.com/ANRC2020/Airline_Delay_Predictions_at_Scale]
 
-### End to End Machine Learning System Using Kubernates and Azure
+### End-to-End Machine Learning System Using Kubernetes and Azure
 
-Leveraged Docker, Kubernates, and Azure to implement a robust end to end machine learning service API and to host and scale it in the cloud. Implemented a BERT model for text classification for textual setiment analysis.
+Leveraged Docker, Kubernetes, and Azure to implement a robust end-to-end machine learning service API and to host and scale it in the cloud. Implemented a BERT model for text classification for textual sentiment analysis.
 
 <br />
 
