@@ -7,7 +7,9 @@
 
 ## About
 
-I am currently pursuing my Masters in Information and Data Science (MIDS) at UC Berkeley with a strong academic background from the University of California, Merced where I earned my Bachelors of Science in Applied Mathematics and Computer Science. Through studying chess and exploring how cutting edge chess engines worked I developed a passion for machine learning and data science which led to internships at Lawrence Livermore National Laboratory and Valley Children's Hospital, working on advanced projects involving protein data analysis and vitrual reality based data analysis systems. A keen interest in machine learning, especially in the end-to-end production of machine learning systems and deep learning, continues to guide my academic pursuits, alongside the belief that AI should advance responsibly, with individual privacy at the forefront of every innovation and ethical consideration.
+I recently graduated from UC Berkeley’s Master of Information and Data Science (MIDS) program, after earning my B.S. in Applied Mathematics and Computer Science from UC Merced. My journey into machine learning and data science began with a deep interest in chess—where exploring how top engines made decisions sparked a broader fascination with optimization, strategy, and intelligent systems.
+Since then, I’ve worked on a range of impactful projects, from protein-receptor modeling at Lawrence Livermore National Lab to immersive VR diagnostics at Valley Children’s Hospital. I’ve also led the design and deployment of full-stack ML systems in cloud environments, gaining hands-on experience with tools like Docker, Kubernetes, Azure, and MLOps best practices.
+I'm driven by a passion for continuous learning—constantly looking to sharpen my technical skills, expand my perspective, and grow as both a data scientist and a person. I believe in building AI systems that are scalable, impactful, and developed with care for privacy and ethical integrity.
 
 ## Education
 - **University of California, Berkeley** (January 2024 - May 2025)  
