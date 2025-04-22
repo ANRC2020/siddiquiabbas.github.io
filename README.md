@@ -46,7 +46,7 @@ Led the development of a proof-of-concept application for real-time tracking and
 <br />
 
 ### Data Science Intern | Lawrence Livermore National Laboratory | May 2022 - June 2022
-Conducted protein structure data analysis, focusing on using protein's structures and chemical properties to accelerate the testing process for finding compounds capable of binding to the SARS-COVID 19 virus for vaccine synthesis. Developed a 3-dimensional convolutional neural network from scratch that achieved 75% test accuracy in identifying proteins more likely to bind to the virus's receptor sites. 
+Conducted protein structure data analysis, focusing on using protein structures and chemical properties to accelerate the testing process for finding compounds capable of binding to the SARS-COVID 19 virus for vaccine synthesis. Developed a 3-dimensional convolutional neural network that achieved 75% test accuracy in identifying proteins more likely to bind to the virus's receptor sites. 
 
 *Project Presentation:* 
 <iframe 
@@ -57,9 +57,27 @@ Conducted protein structure data analysis, focusing on using protein's structure
 
 ## Relevant Projects
 
+### BookWise – Explainable Recommendation System (Capstone Project)
+
+Description: BookWise is an AI‑powered recommendation engine that delivers personalized book suggestions with transparent, user-specific reasoning. Built with Python, TensorFlow, Matplotlib, and scikit-learn, the system uses a two-tower model trained on over 76,000 historical user interactions across 230,000 unique books. Hosted on AWS SageMaker and integrated with AWS Bedrock, the system also fine-tunes LLMs to generate natural language explanations that reflect user preferences, past behavior, and broader reading trends.
+
+Users receive recommendations alongside clear, tailored explanations and can provide real-time feedback to refine their profiles, enabling a continually evolving, interactive experience. The platform was deployed with Streamlit, SQL, and EC2 to connect the full pipeline from model to interface.
+
+More information and a demo can be viewed at the iSchool Berkeley capstone website.
+
+Demo & Details: View on iSchool Berkeley 
+[View on iSchool Berkeley](https://www.ischool.berkeley.edu/projects/2025/bookwise)
+
+### Retrieval-Augmented Generation (RAG) System for Generative AI Support
+
+Designed and deployed personalized RAG systems to assist research and marketing teams with generative AI-related queries, tailored to their domain expertise and specific use cases. Leveraged embedding models, Qdrant vector stores, custom prompt engineering, and LLM tuning to ensure the responses aligned with each team's informational needs and technical fluency. Evaluated performance using ROUGE-L and BERTScore to measure structural and contextual alignment with ground-truth answers, and optimized retriever configurations by analyzing precision and recall @k. Fine-tuned chunk size and overlap for each RAG to maximize answer relevance and retrieval efficiency.
+
+GitHub Repository:
+[https://github.com/ANRC2020/Generative_AI_RAG.git]
+
 ### Flight Delay Prediction and Analysis
 
-Developed several machine learning-based systems for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive data preprocessing, including handling missing values, encoding categorical variables, and feature engineering (i.e., creating lagged features) to enhance model performance. Significant efforts were made to account for any potential data leakage in dataset augmentation and cross-validation of results. We leveraged machine learning models, including Logistic Regression, Naive Bayes, Decision Trees, Random Forests, and Neural Nets to predict flight delays.
+Developed several machine learning-based systems for predicting flight delays using a large-scale historical flight dataset (approximately 30GB). The project involved extensive data preprocessing, including handling missing values, encoding categorical variables, and feature engineering (i.e., creating lagged features) to enhance model performance. Significant efforts were made to account for any potential data leakage in dataset augmentation and cross-validation of results. We leveraged machine learning models, including Logistic Regression, Naive Bayes, Decision Trees, Random Forests, and Neural Nets, to predict flight delays.
 
 Model performance was evaluated using metrics such as precision, recall, and a weighted F1 score to assess the effectiveness of each algorithm. Azure and PySpark ML were leveraged to parallelize data processing and model training. This approach utilized only CPU parallelization, ensuring scalable and high-performance execution even with the large 30GB dataset. The system demonstrated the ability to scale efficiently with large data and deliver real-time predictive capabilities for flight delay analysis.
 
