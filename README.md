@@ -116,16 +116,24 @@ Conducted a thorough analysis of textual Amazon product reviews, focusing on fea
 </iframe>
 
 ### Time Series Forecasting and Statistical Analysis of CO2 Emissions Trends
-Time series forecasting models, including ARIMA and SARIMA, were developed to analyze trends and seasonal patterns in CO2 emissions data. Extensive statistical analysis, including residual diagnostics and model validation, was conducted to ensure robust predictions. Anomalies in the data were identified and corrected, enhancing the accuracy and reliability of the forecasting models. 
 
-The data spans from 1958 to 1997, using ARIMA to predict both near-term (2022) and long-term (2100) CO2 levels. The upper, expected, and lower bounds indicate when CO2 concentrations are likely to cross critical thresholds of 420 ppm and 500 ppm. These projections help in understanding potential future CO2 trends under various scenarios, providing valuable insights into long-term environmental planning and policy-making.
+This project revisited and expanded on a 1997 climate modeling study by using updated atmospheric CO₂ data collected from the Mauna Loa Observatory through 2024. The goal was to assess how well historic linear, quadratic, and ARIMA-based models predicted the progression of CO₂ levels and to develop new, more accurate forecasts extending to the year 2122.
 
-| Model      | sigma^2   | log_lik  | AIC      | AICc     | BIC      |
-|------------|-----------|----------|----------|----------|----------|
-| arima_full | 0.0860309 | -85.59152| 181.1830 | 181.3167 | 201.7845 |
-| arima_test | 0.0857657 | -85.91671| 181.8334 | 181.9668 | 202.4459 |
+We performed extensive time series analysis—including decomposition, ACF/PACF diagnostics, and model selection using RMSE and AIC criteria. New models, including ARIMA, SARIMA, and polynomial trends, were trained and tested on updated data, with SARIMA ultimately outperforming alternatives by best capturing seasonal variation and long-term growth.
 
-![ARIMA Models](assets/images/ARIMA.png)
+Key Findings:
+
+Legacy models (from 1997) underestimated atmospheric CO₂ growth, missing the 420 ppm milestone by over a decade.
+
+Updated SARIMA forecasts predict CO₂ levels will exceed 500 ppm by 2057 and reach over 640 ppm by 2122.
+
+The project emphasizes the urgency of climate action, as recent trends suggest even pessimistic models may underpredict future concentrations.
+
+Technologies Used:
+R (tsibble, fable, TSLM, auto.ARIMA), NOAA climate datasets, time series forecasting, and statistical modeling.
+
+GitHub Repository:
+[https://github.com/ANRC2020/w271_TimeSeries_Co2.git]
 
 ## Awards and Recognition
 - **Top Finisher** for Innovate to Grow Event for 2022 Fall Software Engineering Capstone
